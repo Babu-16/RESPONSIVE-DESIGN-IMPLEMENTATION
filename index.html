@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfect Trip Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="backgroundCanvas"></canvas>
+
+  <nav>
+    <div class="logo">TripPlanner</div>
+    <button id="login">Login</button>
+  </nav>
+
+  <header class="hero">
+    <h1>Explore Your Next Destination</h1>
+    <select id="city-select">
+      <option value="newyork">New York</option>
+      <option value="paris">Paris</option>
+      <option value="tokyo">Tokyo</option>
+    </select>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="category" id="food">
+        <h2>Food</h2>
+        <ul></ul>
+      </div>
+      <div class="category" id="stay">
+        <h2>Stay</h2>
+        <ul></ul>
+      </div>
+      <div class="category" id="places">
+        <h2>Places to Visit</h2>
+        <ul></ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
